@@ -3,9 +3,9 @@
 #### Q1. You are part of data science team that is working for a national fast-food chain. You create a simple report that shows trend: Customers who visit the store more often and buy smaller meals spend more than customers who visit less frequently and buy larger meals. What is the most likely diagram that your team created?
 
 - [ ] multiclass classification diagram
-- [ ] linear regression and scatter plots
+- [x] linear regression and scatter plots
 - [ ] pivot table
-- [x] K-means cluster diagram
+- [ ] K-means cluster diagram
 
 #### Q2. You work for an organization that sells a spam filtering service to large companies. Your organization wants to transition its product to use machine learning. It currently a list Of 250,00 keywords. If a message contains more than few of these keywords, then it is identified as spam. What would be one advantage of transitioning to machine learning?
 
@@ -333,14 +333,14 @@ Note: there are centres of clusters (C0, C1, C2).
 - [ ] It would substantially shorten your development time.
 - [ ] It would increase the speed of the appliance.
 
-#### Q45. You work for a hospital that is tracking the community spread of a virus. The hospital created a smartwatch app that uploads body temperature data from hundreds of thousands of participants. What is best technique to analyze the data?
+#### Q45. You work for a hospital that is tracking the community spread of a virus. The hospital created a smartwatch application that uploads body temperature data from hundreds of thousands of participants. What is the best technique to analyze the data?
 
-- [ ] Use reinforcement learning to reward the system when a new person participates
-- [ ] Unsupervised machine learning to cluster together people based on patterns the machine discovers
-- [ ] Supervised machine learning to sort people by demographic data
-- [x] supervised ml to classify people by body temperature
+- [ ] Use reinforcement learning to reward the system when a new person participates.
+- [ ] Use unsupervised machine learning to cluster together people based on patterns the machine discovers.
+- [ ] Use Supervised machine learning to sort people by demographic data.
+- [x] Use Supervised machine learning to classify people by body temperature.
 
-#### Q46. Man of the advances in ml have come from improved
+#### Q46. Many of the advances in machine learning have come from improved `___`.
 
 - [ ] statistics
 - [ ] structured data
@@ -356,12 +356,12 @@ Note: there are centres of clusters (C0, C1, C2).
 - [ ] multiclass classification
 - [x] k-nearest neighbour
 
-#### Q48. The supervisor asks to create a ml system that will help your hr dep. classify job applicants into well-defined groups.What type of system are more likely to recommend?
+#### Q48. The supervisor asks to create a machine learning system that will help your hr dep. classify job applicants into well-defined groups.What type of system are more likely to recommend?
 
 - [ ] deep learning artificial neural network that relies on petabytes of data
-- [ ] unsupervised ml system that clusters together the best candidates
-- [ ] Not recommend ml for this project
-- [x] supervised ml system that classifies applicants into existing groups // we do not need to classify best candidates we just need to classify job applicants in to existing categories
+- [ ] unsupervised machine learning system that clusters together the best candidates
+- [ ] Not recommend machine learning for this project
+- [x] supervised machine learning system that classifies applicants into existing groups // we do not need to classify best candidates we just need to classify job applicants in to existing categories
 
 #### Q49. Someone of your data science team recommends that you use decision trees, naive Bayes and K-nearest neighbor, all at the same time, on the same training data, and then average the results. What is this an example of?
 
@@ -370,9 +370,9 @@ Note: there are centres of clusters (C0, C1, C2).
 - [ ] high -variance modeling
 - [x] ensemble modeling
 
-#### Q50. Your data science team wants to use ml to better filter out spam messages. The team has gathered a database of 100,000 messages that have been identified as spam or not spam. If you are using supervised ml, what would you call this data set?
+#### Q50. Your data science team wants to use machine learning to better filter out spam messages. The team has gathered a database of 100,000 messages that have been identified as spam or not spam. If you are using supervised machine learning, what would you call this data set?
 
-- [ ] ml algorithm
+- [ ] machine learning algorithm
 - [x] training set
 - [ ] big data test set
 - [ ] data cluster
@@ -574,8 +574,8 @@ Note: there are centres of clusters (C0, C1, C2).
 
 #### Q75. Many of the advances in machine learning have come from improved?
 
-- [x] structured data
-- [ ] algorithms
+- [ ] structured data
+- [x] algorithms
 - [ ] time
 - [ ] computer scientists
 
@@ -588,9 +588,9 @@ Note: there are centres of clusters (C0, C1, C2).
 
 #### Q77. Which choice is the best example of labeled data?
 
-- [ ] a spreadsheet
+- [x] a spreadsheet
 - [ ] 20,000 recorded voicemail messages
-- [x] 100,000 images of automobiles
+- [ ] 100,000 images of automobiles
 - [ ] hundreds of gigabytes of audio files
 
 #### Q78. In statistics, what is defined as the probability of a hypothesis test of finding an effect - if there is an effect to be found?
@@ -602,10 +602,10 @@ Note: there are centres of clusters (C0, C1, C2).
 
 #### Q79. You want to create a machine learning algorithm to identify food recipes on the web. To do this, you create an algorithm that looks at different conditional probabilities. So if the post includes the word _flour_, it has a slightly stronger probability of being a recipe. If it contains both _flour_ and _sugar_, it even more likely a recipe. What type of algorithm are you using?
 
-- [ ] naive Bayes classifier
+- [x] naive Bayes classifier
 - [ ] K-nearest neighbor
 - [ ] multiclass classification
-- [x] decision tree
+- [ ] decision tree
 
 #### Q80. What is lazy learning?
 
@@ -620,3 +620,10 @@ Note: there are centres of clusters (C0, C1, C2).
 - [ ] a type of unsupervised learning that relies heavily on a well-established model
 - [ ] a type of reinforcement learning where accuracy degrades over time
 - [x] a type of reinforcement learning that focuses on rewards
+
+#### Q82. Data in your model has low bias and low variance. How would you expect the data points to be grouped together on the diagram?
+
+- [ ] They would be grouped tightly together in the predicted outcome.
+- [ ] They would be grouped tightly together but far from the predicted.
+- [ ] They would be scattered around the predict outcome.
+- [x] They would be scattered far away from the predeicted outcome.

@@ -333,3 +333,38 @@ Personal Hint: There are multiple file suffixes for templates (.potx, .potm, .po
 - [ ] Select the icon in a SmartArt Icon Diagram.
 - [ ] Select Insert Icon and place it on top of the SmartArt Diagram.
 - [ ] Select a SmartArt shape and select Insert Icon.
+
+#### Q44. You are having trouble playing back a presentation smoothly. What should you do?
+
+- [ ] Copy the presentation to your internal hard drive.
+- [ ] Clear the **Disable hardware graphics acceleration** option.
+- [x] all of these answers
+- [ ] Select the **Show without animation** option.
+
+#### Q45. Which feature lets you configure multiple combinations of specific slides for playback from a larger slideshow?
+
+- [ ] Record Slide Show
+- [ ] Rehearse Timings
+- [x] Custom Slide Show
+- [ ] Hide Slide
+
+#### Q45. When working with a mapchart, which options can be drawn?
+
+- [ ] Postal code
+- [ ] State
+- [ ] Country
+- [x] All of these answers
+
+#### Q46.You receive feedback from two clients on your presentation. Each person sent you an edited file. What's the best way to review their changes?
+
+- [ ] Review > Accept
+- [ ] Review > Smart Lookup
+- [x] Review > Compare
+- [ ] Review > Show Comments
+
+#### Q46.How do you promote subbullets to top-level bullets?
+
+- [x] Press Shift+Tab.
+- [ ] Right-click the bulleted text and select Promote.
+- [ ] Press the Esc key.
+- [ ] Press the Spacebar.

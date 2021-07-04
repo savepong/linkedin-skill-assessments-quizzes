@@ -78,10 +78,10 @@ let selected = pocket[1];
 let fruit = 'apple';
 ```
 
-- [ ] `let fuit = 'plum'`
-- [ ] `var fuit = 'plum'`
-- [ ] `const fuit = 'plum'`
-- [x] `fuit = 'plum'`
+- [ ] `let fruit = 'plum'`
+- [ ] `var fruit = 'plum'`
+- [ ] `const fruit = 'plum'`
+- [x] `fruit = 'plum'`
 
 #### Q10. What is the `<label>` element used for?
 
@@ -131,7 +131,7 @@ h1 {
 - [ ] date
 - [ ] password
 
-#### Q15. You have used `dispaly: none` in your stylesheet. Which users will be able to see or hear this content?
+#### Q15. You have used `display: none` in your stylesheet. Which users will be able to see or hear this content?
 
 - [ ] all users
 - [ ] users who can see the content on screen
@@ -378,22 +378,48 @@ const user = {
 
 #### Q40. what does the CSS selector a[href$="org"] select?
 
-- [ ] all <a> tags whose href attribute begins with "org"
-- [ ] all <a> tags whose href attribute equals "org"
-- [x] all <a> tags whose href attribute ends with "org"
-- [ ] all <a> tags whose href attribute contains "org"
+- [ ] all \<a> tags whose href attribute begins with "org"
+- [ ] all \<a> tags whose href attribute equals "org"
+- [x] all \<a> tags whose href attribute ends with "org"
+- [ ] all \<a> tags whose href attribute contains "org"
 
-**#### Q41. Which choice <em>is not</em> of invoking strict mode in JavaScript?**
+#### Q41. Which choice <em>is not</em> of invoking strict mode in JavaScript?
 
 - [ ] it eliminates some JavaScript silent errors by changing them to throw errors.
 - [ ] it prohibits some syntax likely to be defined in future versions of ECMAScript.
 - [ ] it forces the writing of valid HTML and CSS.
 - [ ] it fixes mistakes that make it difficult for JavaScript engines to perform optimizations.
 
-** Q42. In normal flow, some elements display as block elements default and others inline. which choice contains only block-level by default elements?**
+#### Q42. In normal flow, some elements display as block elements default and others inline. which choice contains only block-level by default elements?\*\*
 
 - [ ] ul, li, a
 - [ ] p, b, h3
 - [ ] div, p, em
-- [X] div, main, h1
+- [x] div, main, h1
 
+#### Q43. Which line would you add to this code to add "Cosmos" to the list of currencies using JavaScript?
+
+```javascript
+var currencies = ['Bitcoin', 'Ethereum'];
+
+/* Missing line */
+console.log(currencies);
+```
+
+- [x] `currencies.push("Cosmos");`
+- [ ] `Array.append("Cosmos", currencies);`
+- [ ] `currencies.add("Cosmos");`
+- [ ] `currencies(2) = "Cosmos";`
+
+#### Q44. How would you change this code to make Vanilla selected by default?
+
+```javascript
+<input type="radio" value="strawberry">Strawberry
+<input type="radio" value="vanilla">Vanilla
+<input type="radio" value="chocolate">Chocolate
+```
+
+- [x] `<input type="radio" value="vanilla" checked>`
+- [ ] `<input type="radio" value="vanilla" check>`
+- [ ] `<input type="radio" value="vanilla" selected>`
+- [ ] `<input type="radio" value="vanilla" on>`

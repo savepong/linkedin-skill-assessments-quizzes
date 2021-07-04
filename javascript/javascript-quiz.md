@@ -286,8 +286,6 @@ for (var i = 0; i < 5; i++) {
 - [ ] Object.each()
 - [x] Object.keys()
 
-#### Q22. After the following code, what is the value of a.length?
-
 #### Q22. What will be logged to the console?
 
 ```js
@@ -308,7 +306,7 @@ console.log(a.length);
 - [ ] Keys in Maps can be strings.
 - [ ] You can access values in a Map without iterating over the whole collection.
 
-`Map.prototype.size` returns the number of elements in a Map, whereas Object does not have a built-in method to return its size.
+**Explanation:** `Map.prototype.size returns the number of elements in a Map, whereas Object does not have a built-in method to return its size.`
 
 #### Q24. What is the value of dessert.type after executing this code?
 
@@ -483,10 +481,12 @@ f2();
 
 #### Q42. Your code is producing the error: TypeError: Cannot read property 'reduce' of undefined. What does that mean?
 
-- [ ] You are calling a method named reduce on an object that's declared but has no value.
-- [x] You are calling a method named reduce on an object that does not exist.
+- [x] You are calling a method named reduce on an object that's declared but has no value.
+- [ ] You are calling a method named reduce on an object that does not exist.
 - [ ] You are calling a method named reduce on an empty array.
 - [ ] You are calling a method named reduce on an object that's has a null value.
+
+**Explanation**: `You cannot invoke reduce on undefined object... It will throw (yourObject is not Defined...)`
 
 #### Q43. How many prototype objects are in the chain for the following array?
 
