@@ -7,7 +7,7 @@
 - [ ] ls -l
 - [x] blkid
 
-#### Q2. Linux file access control lists (ACLs) are \_\_\_.
+#### Q2. Linux file access control lists (ACLs) are \_.
 
 - [x] discretionary access control system permissions layered over standard Linux permissions
 - [ ] mandatory access control system permissions layered over standard Linux permissions
@@ -89,7 +89,7 @@ ps -e --format uid,pid,ppid,%cpu,cmd
 - [ ] !\*
 - [x] !ls
 
-#### Q12. The ssh-copy-id command copies \_\_\_ to the remote host.
+#### Q12. The ssh-copy-id command copies \_ to the remote host.
 
 - [ ] both private and public keys
 - [x] the ssh public key
@@ -216,7 +216,7 @@ echo \$myNumber | sed -e 's/^[[:digit:]][[:digit:]][[:digit:]]/(&)/g'
 - [x] It has the SUID permission mode and is owned by root.
 - [ ] It is a system administration command.
 
-#### Q29. When a user deletes a file using the rm command, Linux will \_\_\_.
+#### Q29. When a user deletes a file using the rm command, Linux will \_.
 
 - [ ] always ask for confirmation
 - [ ] back up the file before it deletes the file
@@ -303,8 +303,8 @@ date | mail -s "This is a remote test" user1@rhhost1.localnet.com
 
 - [ ] resolving the local name
 - [ ] blocking sites using iptables
-- [x] setting the hostname
-- [ ] configuring DNS name servers
+- [ ] setting the hostname
+- [x] configuring DNS name servers
 
 #### Q38. In an extended regular expression, you would use (pattern){3} to match three instances of the pattern. How would you match the same thing with an extended glob?
 
@@ -327,7 +327,7 @@ date | mail -s "This is a remote test" user1@rhhost1.localnet.com
 - [ ] pam_krb5
 - [ ] kdb5_util
 
-#### Q41. To search from the current cursor position up to the beginning of the file using VIM, type **\_\_** and then the search criteria.
+#### Q41. To search from the current cursor position up to the beginning of the file using VIM, type \_ and then the search criteria.
 
 - [x] ?
 - [ ] \
@@ -354,3 +354,60 @@ date | mail -s "This is a remote test" user1@rhhost1.localnet.com
 - [ ] It resizes the filesystem to match the volume group size.
 - [x] It does nothing.
 - [ ] It remounts the filesystem with the new size.
+
+#### Q45. What would this sed command do?
+
+```bash
+sed -E 's/[a-Z]{4}/($)/'  textfile.txt
+```
+
+- [ ] It would substitute the letter with an ampersand (&).
+- [ ] It would replace all letters in the textfile.txt file with ampersand (&).
+- [x] It would replace the first four letters with an ampersand (&).
+- [ ] It would place parentheses around the first four letters of each line of textfile.txt.
+
+#### Q46. With GNU tools such as GNU grep, awk, and sed, what is difference between regular expressions (BREs) and extended regular expressions (EREs)?
+
+- [ ] EREs support occurrence operators.
+- [x] Only the syntax differs.
+- [ ] EREs support alternation.
+- [ ] EREs can match groups.
+
+#### Q47. Which kernel module do you need to load to use interface bonding?
+
+- [x] bonding.
+- [ ] team.
+- [ ] netbond.
+- [ ] bond.
+
+#### Q48. What does this command string do?
+
+```bash
+find / -size -10K -exec ls -l {} \;
+```
+
+- [ ] It finds all files larger than 10k and long lists them using the ls command.
+- [ ] It finds all files of size 10k using ls -l and hands them off to the find command to display.
+- [ ] It finds all files in the / directory of size 10k and long lists them.
+- [x] It finds all files in the file system smaller than 10k and long lists them using the ls command.
+
+#### Q49. To change the priority of multiple swap partitions, which file would you edit?
+
+- [ ] /proc/swapiness
+- [x] /etc/fstab
+- [ ] /etc/mounts
+- [ ] /etc/swaps
+
+#### Q50. What would you type to list all systemd service unit files, whether they are enabled or not?
+
+- [ ] systemctl list-services.
+- [ ] chkconfig --list-all
+- [x] systemctl list-unit-files -at service
+- [ ] systemctl list-unit-files -t service
+
+#### Q51. You can set Linux group passwords using which command?
+
+- [x] gpasswd
+- [ ] passwd
+- [ ] editsam
+- [ ] grouppass

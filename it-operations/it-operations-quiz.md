@@ -2,22 +2,27 @@
 
 #### Q1. You are configuring a Wi-Fi base station using DHCP. Which items should you set or change?
 
-- [x] - Reset administrator password.
+- [x]
+
+  - Reset administrator password.
   - Set network name.
   - Set network security.
   - Set network password.
-- [ ] - Reset administrator password.
+
+- [ ]
+  - Reset administrator password.
   - Set network name.
   - Set network password.
 - [ ] - Set network name.
   - Set network password.
   - Assign DNS servers.
-- [ ] - Change administrator account name.
+- [ ]
+  - Change administrator account name.
   - Set network password.
   - Set network name.
   - Assign DNS servers.
 
-#### Q2. Can you connect a DisplayPort monitor to a USB C port on your computer?
+#### Q2. Can you connect a DisplayPort monitor to a USB-C port on your computer?
 
 - [ ] Yes. The DisplayPort cable plugs directly into the USB connector.
 - [x] Yes. An adapter or dongle may be required.
@@ -26,8 +31,8 @@
 
 #### Q3. What is the I/O panel?
 
-- [x] the location where expansion cards can connect to peripherals
-- [ ] a cluster of ports and connectors found on the back of the computer case
+- [ ] the location where expansion cards can connect to peripherals
+- [x] a cluster of ports and connectors found on the back of the computer case
 - [ ] the switches that turn on, sleep, and turn off the computer
 - [ ] the portion of the motherboard where non-power cables connect
 
@@ -48,14 +53,18 @@
 #### Q6. Assuming that the gateway, modem, and switch are separate units, in what order should a small office or home office LAN be restarted?
 
 - [ ] The order is not important.
-- [ ]       1. Modem
-                2. Gateway
-                3. Switch
-- [x]       1. Modem
-                2. Switch
-                3. Gateway
-- [ ]       1. Gateway
-                2. Switch
+- [x]
+
+  1. Modem
+  2. Gateway
+  3. Switch
+
+- [ ]
+  1. Modem
+  2. Switch
+  3. Gateway
+- [ ] 1. Gateway
+  2. Switch
 
 #### Q7. A client needs to secure their cafe's wireless network, which is used only by employees. What is the best approach for a finite list of devices?
 
@@ -80,26 +89,29 @@
 
 #### Q10. Which components are typically found on the motherboard?
 
-- [ ]       basic I/O
-                graphics
-                NIC
-                battery
-                expansion slots
-- [ ]       basic I/O
-                cooling
-                NIC
-                graphics
-                expansion slots
-- [x]       basic I/O
-                graphics
-                NIC
-                mass storage
-                expansion slots
-- [ ]       basic I/O
-                graphics
-                NIC
-                power supply
-                expansion slots
+- [x]
+  basic I/O
+  graphics
+  NIC
+  battery
+  expansion slots
+
+- [ ] basic I/O
+      cooling
+      NIC
+      graphics
+      expansion slots
+- [ ] basic I/O
+      graphics
+      NIC
+      mass storage
+      expansion slots
+- [ ]
+  basic I/O
+  graphics
+  NIC
+  power supply
+  expansion slots
 
 #### Q11. What does the acronym RAID refer to?
 
@@ -168,7 +180,7 @@
 
 #### Q20. What is one difference between a drive and media?
 
-- [ ] The drive is where the data is stored and the media is the data itself.
+- [x] The drive is where the data is stored and the media is the data itself.
 - [ ] A drive is hardware that reads media.
 - [ ] These are two terms for the same thing: storage.
 - [ ] The terms apply only to removable storage, where the drive is the slot and the media is the thumb drive or media card inserted into the slot.
@@ -177,5 +189,12 @@
 
 - [ ] in an expansion slot
 - [ ] attached to the front of the case
-- [ ] in a drive cage
-- [x] on the motherboard
+- [x] in a drive cage
+- [ ] on the motherboard
+
+#### Q22. Which statement about a modular power supply is true?
+
+- [ ] It is built from a cluster of smaller, easier-to-install power supplies.
+- [ ] Its power output can be varied to save electricity.
+- [x] Its cables are detachable.
+- [ ] It has dedicated power reserved for different computer components.

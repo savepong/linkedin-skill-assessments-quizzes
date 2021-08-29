@@ -152,7 +152,8 @@
 - [x] logical model
 - [ ] physical model
 - [ ] normalized database
-      `NOT SURE THE QUESTION IS CORRECT. Logical, physical and normalized are all products of the designing phase in this order.`
+
+`Logical, physical and normalized are all products of the designing phase in this order.`
 
 #### Q12. MySQL server can operate in different SQL modes, depending on the value of the sql_mode system variable. Which mode changes syntax and behavior to conform more closely to standard SQL?
 
@@ -175,7 +176,7 @@
 - [ ] STRUCTURE table;
 - [x] DESCRIBE table;
 
-#### Q15. MySQL uses security based on\_\_\_for all connections, queries, and other operations that users can attempt to perform.
+#### Q15. MySQL uses security based on \_ for all connections, queries, and other operations that users can attempt to perform.
 
 - [ ] administrator schema
 - [ ] encrypted algorithms
@@ -304,7 +305,7 @@
 - [ ] help files
 - [ ] default settings
 
-#### Q33. After installing MySQL, it may be necessary to initialize the \_\_ which may be done automatically with some MySQL installation methods.
+#### Q33. After installing MySQL, it may be necessary to initialize the \_ which may be done automatically with some MySQL installation methods.
 
 - [ ] storage engine
 - [ ] user accounts
@@ -318,7 +319,7 @@
 - [x] UNION
 - [ ] WITH COLUMNS
 
-#### Q35. One form of backup, replication, enables you to maintain identical data on multiple servers, as a \_\_\_ configuration.
+#### Q35. One form of backup, replication, enables you to maintain identical data on multiple servers, as a \_ configuration.
 
 - [ ] remote-local
 - [ ] parent-child
@@ -399,7 +400,7 @@
 - [x] insert into cars (make, model, year) values ('Ford', 'Mustang', 2002),
       ('Mercedes', 'C', 2003)
 
-#### Q45. You need an exact copy of a table with all columns and indexes. How?
+#### Q45. You need to make an exact copy of a table, with all columns and indexes. How can you get all of the information needed to accomplish this?
 
 - [ ] create table
 - [ ] clone table
@@ -420,12 +421,12 @@
 - [ ] drop table customers;
 - [x] drop temporary table customers;
 
-#### Q48. you need to run a complex query with recursive subqueries but without creating a stored procedure or a function. Which command or clause do you use?
+#### Q48. You need to run a complex query with recursive subqueries, but without creating a stored procedure or a function. Which command or clause do you use?
 
-- [ ] collate
-- [x] union
-- [ ] full join
-- [ ] with
+- [ ] COLLATE
+- [x] UNION
+- [ ] FULL JOIN
+- [ ] WITH
 
 #### Q49. Which choice is not a processing algorithm for database views?
 
@@ -442,7 +443,7 @@
 - [x] to display storage error codes
 
 `*note: perror prints a description for a system error code or for a storage engine (table handler) error code.`
-[link](<https://dev.mysql.com/doc/refman/5.7/en/perror.html#:~:text=2%20perror%20%E2%80%94%20Display%20MySQL%20Error%20Message%20Information,-For%20most%20system&text=You%20can%20find%20out%20what,(table%20handler)%20error%20code.>)
+[link](<https://dev.mysql.com/doc/refman/5.7/en/perror.html#:~:text=2%20perror%20%E2%80%94%20Display%20MySQL%20Error%20Message%20Information,-For%20most%20system&text=You%20can%20find%20out%20what,(table%20handler)%20error%20code>)
 
 #### Q51. How can you list all columns for a given table?
 
@@ -653,7 +654,7 @@ WHERE MATCH(address) AGAINST ('street, drive');
 - [ ] all tables, columns, data types, indexes and their relationships
 - [ ] a list of entities, their relationship, and constraints
 - [ ] all tables and their names, which are needed to implement the logical model
-- [ ] a list of entities, their relationship, constraints, data types, and cardinalities
+- [x] a list of entities, their relationship, constraints, data types, and cardinalities
 
 #### Q71. Which choice is _not_ a valid model for a stored procedure parameter?
 
@@ -697,12 +698,12 @@ WHERE MATCH(address) AGAINST ('street, drive');
 - [x] TIMESTAMP and DATETIME are both stored without time zone.
 - [ ] TIMESTAMP is stored in UTC values, and DATETIME is stored in without time zone.
 
-#### Q77. What is the equivalent of mysqladmin reload command?
+#### Q77. What is the equivalent of the mysqladmin reload command?
 
-- [ ] mysqladmind flush-threads
-- [ ] mysqladmind flush-tables
-- [x] mysqladmind flush-privileges
-- [ ] mysqladmind flush-all
+- [ ] mysqladmin flush-threads
+- [ ] mysqladmin flush-tables
+- [x] mysqladmin flush-privileges
+- [ ] mysqladmin flush-all
 
 #### Q78. Explain the security aspectof stored procedures
 
@@ -780,3 +781,12 @@ WHERE MATCH(address) AGAINST ('street, drive');
 - [ ] SET
 - [x] BIT
 - [ ] CHAR
+
+#### Q82. This diagram shows what type of relationship between customers and cars?
+
+![mysql picture](images/mysql_q80.png)
+
+- [ ] one-to-many
+- [ ] parent-child
+- [ ] many-to-many
+- [ ] many-to-one

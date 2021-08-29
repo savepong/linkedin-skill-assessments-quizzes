@@ -7,7 +7,7 @@
 - [ ] binomial
 - [x] uniform
 
-#### Q2. Based on the code below, c is the `\_` of a.
+#### Q2. Based on the code below, c is the \_ of a.
 
 ```
 a = rand(1, 11);
@@ -793,3 +793,105 @@ a = a^2;
 - [ ] 8
 - [ ] 17
 - [x] 9
+
+#### Q51.What is a difference between global variable and persistent variables?
+
+- [ ] Global variables have a higher performance overhead than persistent variables.
+- [ ] Global variables remain in memory after clear all; persistent variables do not.
+- [ ] Global variables can be used to cache data in memory; persistent variables cannot.
+- [x] Global variables are accessible outside the function scope; persistent variables are not.
+
+#### Q52. How is the random seed for MATLAB's random number generator first initializedin a MATLAB Session?
+
+- [ ] Seed is undefined until it is initialized by the user.
+- [ ] Seed is set to a value based on the current time when user first calls rand()
+- [ ] Seed is set to a value based on the current time on startup.
+- [x] Seed is set to a static default value on startup.
+
+[Reference](https://ch.mathworks.com/help/matlab/math/why-do-random-numbers-repeat-after-startup.html)
+
+#### Q53. At what will MATLAB look first for a called function?
+
+- [ ] functions on the path
+- [ ] built-in functions
+- [ ] functions within the current file
+- [ ] functions within the current directory
+
+#### Q54. Which choice is the correct syntax for declaring a function that returns the input value as the output?
+
+```
+function mystery_func(a) :
+    return a
+```
+
+- [ ]
+
+```
+function b = mystery_func(a)
+    b = a;
+end
+```
+
+- [x]
+
+```
+def b = mystery_func(a)
+    b = a;
+end
+```
+
+- [ ]
+
+```
+function mystery_func(a)
+    b = a;
+    return b;
+end
+```
+
+- [ ]
+
+[Reference](https://mathworks.com/help/matlab/ref/function.html)
+
+#### Q55. What is the state of a at the end of this code?
+
+```
+a = [1 2; 3 4];
+b = a(:,2);
+c = b + 3;
+a(1:2,1) = c;
+```
+
+```
+a =
+    6   3
+    7   4
+```
+
+- [ ]
+
+```
+a =
+    5   2
+    7   4
+```
+
+- [x]
+
+```
+a =
+    5
+    7
+```
+
+- [ ]
+
+```
+a =
+    6
+    7
+```
+
+- [ ]
+
+[Reference](https://mathworks.com/company/newsletters/articles/matrix-indexing-in-matlab.html)

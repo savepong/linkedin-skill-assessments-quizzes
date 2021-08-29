@@ -67,12 +67,12 @@
 - [ ] 999.9,,
 - [ ] ###,###.0,
 
-#### Q10. When using Goal Seek, you can find a target result by varying \_\_\_ at most.
+#### Q10. When using Goal Seek, you can find a target result by varying \_ at most.
 
-- [x] three inputs
+- [ ] three inputs
 - [ ] four inputs
 - [ ] two inputs
-- [ ] one input
+- [x] one input
 
 #### Q11. In the image below, which option(s) can you select so that the appropriate field headers appear in cells A4 and B3 instead of the terms Row Labels and Column Labels, respectively?
 
@@ -144,14 +144,14 @@
 - [ ] The cell is comprised of 9 characters.
 - [ ] The number 9 appears once and only once within the cell.
 
-#### Q20. To ensure shapes and other objects are an equal left-to-right distance apart, select the shapes, click Page Layout > Align, and then click \_\_\_\_.
+#### Q20. To ensure shapes and other objects are an equal left-to-right distance apart, select the shapes, click Page Layout > Align, and then click \_.
 
 - [ ] Align Middle
 - [ ] Distribute Horizontally
 - [x] Distribute Vertically
 - [ ] Align Center
 
-#### Q21. An organization chart, which shows the hierarchy within a company or organization, is available as \_\_\_ that is included with Excel.
+#### Q21. An organization chart, which shows the hierarchy within a company or organization, is available as \_ that is included with Excel.
 
 - [ ] a 3D model
 - [x] SmartArt
@@ -248,7 +248,7 @@
 - [x] Sort the data in column D.
 - [ ] Sort the data in column E.
 
-#### Q34. When you sort a list of numerical value into ascending or descending order, the value in the middle of the list is the \_\_\_.
+#### Q34. When you sort a list of numerical value into ascending or descending order, the value in the middle of the list is the \_.
 
 - [ ] mode
 - [ ] modulus
@@ -292,7 +292,7 @@
 - [ ] a series of days identical to the initial date
 - [ ] a series of days exactly one year apart
 
-#### Q39. To discover how many cells in a range contain values that meet a single criterion, use the \_\_\_function.
+#### Q39. To discover how many cells in a range contain values that meet a single criterion, use the \_ function.
 
 - [ ] COUNT
 - [ ] SUMIFS
@@ -585,9 +585,136 @@
 - [ ] Delete removes the cell itself, shifting cells either up or to the left. Clear removes content and properties but does not muves cells
 - [ ] Delete removes formulas and values. clear removes formulas, values, hyperlinks, formats, comments and notes
 
-#### Q76. what is the intersection of a worksheet row and column?
+#### Q76. What is the intersection of a worksheet row and column?
 
 - [ ] cell
 - [x] selection
 - [ ] element
 - [ ] scalar
+
+#### Q77. In this PivotTable, the continuous variable weight is shown in the _Row_ field. Another continuous variable is in the _Sum Values_ field. It is important to reduce a long list of body weights to a smaller set of weight categories. How do you do this?
+
+![Excel-Q77](images/Q77.png?raw=true)
+
+- [ ] Use weight as a filter field as well as a row field in the PivotTable.
+- [ ] Use `IF()` to show weight by categories instead of by pounds.
+- [ ] Click the _Row Labels_ arrow and select _Group_.
+- [x] Right-click any row field value in the PivotTable and select _Group_.
+
+#### Q78. How can you drill down into a PivotTable to show details?
+
+- [ ] Select the cell into which you want to drill down, right-click, and select _Show Summary_.
+- [ ] Select the cell into which you want to drill down, right-click and select _Drill-down_.
+- [x] Select the cell into which you want to drill down and double-click.
+- [ ] Select the cell into which you want to drill down, right-click and select _Show Details > Summary Page_
+
+#### Q79. To ensure the VLOOKUP function returns the value of an exact match, what do you need to enter into the Range_lookup field?
+
+![Excel-Q79](images/Q79.png?raw=true)
+
+- [ ] 0
+- [ ] 1
+- [x] FALSE
+- [ ] TRUE
+
+#### Q80. Cell D2 contains the formula =B2-C2. What is the fastest way to copy that formula into cells D3:D501 (the bottom of the data set)?
+
+![Excel-Q80](images/Q80.png?raw=true)
+
+- [ ] Right-click D2 and select _Fill Down_.
+- [ ] Click D2's fill handle and drag it down to D501.
+- [ ] On the ribbon's _Data_ tab, select _Flash fill_.
+- [x] Double-click D2's fill handle.
+
+#### Q81. This data needs to be sorted by Group, then by Last Name, then by First Name. How do you accomplish this?
+
+![Excel-Q81](images/Q81.png?raw=true)
+
+- [ ]
+
+1. Rearrange the columns in this order: Group, Last Name, First Name.
+2. Right-click any of the headers.
+3. Select _Sort All_.
+
+- [ ]
+
+1. Select any cell in the dataset.
+2. In the _Data_ tab, click the _Sort_ button.
+3. Add two levels to the default level.
+4. Populate the _Sort-by_ fields in this order: Group, Last Name, First Name.
+
+- [x]
+
+1. Highlight the entire dataset.
+2. In the _Data_ tab, click the _Sort_ button. The headers appear.
+3. Drag the headers into this order: Group, Last Name, First Name.
+
+- [ ]
+
+1. Select a cell in the Group column, then sort.
+2. Select a cell in the Last Name column, then sort.
+3. Select a cell in the FIrst Name column, then sort.
+
+#### Q82. How can you use Format Painter to apply the format of a single source cell to several nonadjacent destination cells?
+
+- [ ]
+
+  1. Right-click the source cell.
+  2. Click the Format Painter.
+  3. Right-click each destination cell.
+  4. Press Esc.
+
+- [ ]
+
+  1. Ctrl-click (Windows) or Command-click (Mac) each destination cell to select it.
+  2. Click the Format Painter.
+  3. Click the source cell.
+
+- [ ]
+
+  1. Select the source cell.
+  2. Double-click the Format Painter.
+  3. Click each destination cell.
+  4. Press Esc.
+
+- [ ]
+
+  1. Select the source cell.
+  2. Right-click the Format Painter.
+  3. Click each destination cell.
+  4. Press Esc.
+
+#### Q83. Which is a valid Excel formula?
+
+- [ ] `=(A5+B5)*B7`
+- [ ] `=A3-7(B3:B5+4)`
+- [ ] `=(A5+B5)B7`
+- [ ] `=B3^[2*/3]`
+
+#### Q84. Columns D, E, and F are hidden in your worksheet. What is one way to unhide these columns?
+
+- [ ] Select column G, then right-click and select `Unhide`.
+- [ ] Select column C, then right-click and select `Unhide`.
+- [ ] On the Page Layout tab, in the `Rows` and `Columns` section, select `Unhide`.
+- [ ] Click and drag to select columns C and G, then right-click and select `Unhide`.
+
+#### Q85. Before publishing a document, you want to identify issues that may make it difficult for people with disabilities to read. Which feature should you use?
+
+- [ ] Check Accessibility
+- [ ] Check Compatibility
+- [ ] Protect Document
+- [ ] Inspect Document
+
+#### Q86. How do you remove the background of an inserted image?
+
+- [ ] Select the image and, on the `Picture Tools Format` tab, use the `Compress Picture` feature.
+- [ ] Select the image and, on the `Design` tab, use the `Format Background` feature.
+- [ ] On the `Drawing Tools Format` tab, select `Graphics Fill` > `Remove Background`.
+- [ ] Select the image and, on the `Picture Tools Format` tab, click the Remove Background button.
+
+#### Q87. You want to group your slides based on their content to better organize your presentation. How would you accomplish this?
+
+- [ ] Create an outline in the outline view and rearrange slides.
+- [ ] Add a table of contents slide and link the remaining slides to it.
+- [ ] Add sections and move the slides into the appropriate sections.
+- [ ] Create custom shows and add the slides into the shows.

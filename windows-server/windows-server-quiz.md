@@ -51,7 +51,7 @@
 - [ ] DNS forward lookup zone
 - [ ] DNS reverse lookup zone
 
-#### Q8. Hyper-V \_\_\_\_ is a disaster recovery tool that replicates virtual machines from one Hyper-V host server to another in a Hyper-V Windows Server 2016 environment.
+#### Q8. Hyper-V \_ is a disaster recovery tool that replicates virtual machines from one Hyper-V host server to another in a Hyper-V Windows Server 2016 environment.
 
 - [ ] Manager
 - [x] Replica
@@ -363,3 +363,17 @@
 - [ ] Microsoft Management Console
 - [ ] Users and Groups
 - [ ] Computer Objects
+
+#### Q50. What is the Microsoft implementation of a RADIUS server?
+
+- [ ] IP address Management (IPAM) Server
+- [x] Network Policy Server (NPS)
+- [ ] Network Load Balancing
+- [ ] Web Server (IIS)
+
+#### Q51. After installing the active directory domain services role to your windows server 2016 OS, how do you promote the server to a domain controller using the GUI?
+
+- [ ] Open mmc.exe
+- [ ] Run dcpromo.exe
+- [ ] Click Add Roles and Features.
+- [ ] Click the notification flag in the Server Manager windows.

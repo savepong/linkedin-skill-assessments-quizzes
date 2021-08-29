@@ -193,6 +193,13 @@ console.log(bob.precip);
 - [ ] /[0-9]+:[0-9]+:[0-9]+/
 - [ ] / : : /
 
+NOTE: The first three are all partially correct and will match digits, but the **second option is the most correct** because it will **only** match **2 digit** time values (12:00:32). The first option would have worked if the repitions range looked like `[0-9]{2}`, however because of the **comma** `[0-9]{2,}` it will select 2 **or more** digits (120:000:321). The third option will any range of time digits, single _and_ multiple (meaning `1:2:3` will also match).
+
+**More resources:**
+
+- [Repeating characters](https://regexone.com/lesson/repeating_characters)
+- [Kleene operators](https://regexone.com/lesson/kleene_operators)
+
 #### Q13. What is the result in the console of running this code?
 
 ```js
@@ -428,10 +435,10 @@ let diff = function (x, y) {
 
 #### Q37. How do you import the lodash library making it top-level Api available as the "\_" variable?
 
-- [x] import \_ from 'lodash';
-- [ ] import 'lodash' as \_;
-- [ ] import '\_' from 'lodash;
-- [ ] import lodash as \_ from 'lodash';
+- [x] `import _ from 'lodash';`
+- [ ] `import 'lodash' as _;`
+- [ ] `import '_' from 'lodash;`
+- [ ] `import lodash as _ from 'lodash';`
 
 #### Q38. What does the following expression evaluate to?
 
@@ -632,10 +639,10 @@ printA();
 printA();
 ```
 
-- [ ] 1 then 1
-- [ ] 1 then undefined
-- [x] undefined the undefined
-- [ ] undefined the 1
+- [ ] `1` then `1`
+- [ ] `1` then `undefined`
+- [x] `undefined` then `undefined`
+- [ ] `undefined` then `1`
 
 #### Q56. How does the `forEach()` method differ from a `for` statement?
 
@@ -669,10 +676,12 @@ new logThis();
 
 #### Q59. Why might you choose to make your code asynchronous?
 
-- [ ] to start tasks that might take some time without blocking subsequent tasks from executing immediately
-- [x] to ensure that tasks further down in your code are not initiated until earlier tasks have completed
+- [x] to start tasks that might take some time without blocking subsequent tasks from executing immediately
+- [ ] to ensure that tasks further down in your code are not initiated until earlier tasks have completed
 - [ ] to make your code faster
 - [ ] to ensure that the call stack maintains a LIFO (Last in, First Out) structure
+
+**EXPLANATION:** "to ensure that tasks further down in your code are not initiated until earlier tasks have completed" you use the normal (synchronous) flow where each command is executed sequentially. Asynchronous code allows you to break this sequence: start a long running function (AJAX call to an external service) and continue running the rest of the code in parallel.
 
 #### Q60. Which expression evaluates to true?
 
@@ -789,9 +798,9 @@ button.addEventListener(
 #### Q74. Why would you choose an asynchronous structure for your code?
 
 - [ ] To use ES6 syntax
-- [ ] To start tasks that might take some time without blocking subsequent tasks from executing immediately
+- [x] To start tasks that might take some time without blocking subsequent tasks from executing immediately
 - [ ] To ensure that parsers enforce all JavaScript syntax rules when processing your code
-- [x] To ensure that tasks further down in your code aren't initiated until earlier tasks have completed
+- [ ] To ensure that tasks further down in your code aren't initiated until earlier tasks have completed
 
 #### Q75. What is the HTTP verb to request the contents of an existing resource?
 
@@ -871,3 +880,67 @@ class TaxCalculator {
 - [ ] new TaxCalculator().calculate(\$50);
 - [x] TaxCalculator.calculate(50);
 - [ ] new TaxCalculator().calculate(50);
+
+#### Q82. What is wrong with this code?
+
+```js
+const foo = {
+  bar() {
+    console.log('Hello, world!');
+  },
+  name: 'Albert',
+  age: 26,
+};
+```
+
+- [ ] The function bar needs to be defined as a key/value pair.
+- [ ] Trailing commas are not allowed in JavaScript.
+- [ ] Functions cannot be declared as properties of objects.
+- [x] Nothing, there are no errors.
+
+#### Q83. What wil be logged to the console?
+
+```js
+console.log('I');
+setTimeout(() => {
+  console.log('love');
+}, 0);
+console.log('Javascript!');
+```
+
+- [x]
+
+```
+I
+Javascript!
+love
+```
+
+- [ ]
+
+```
+love
+I
+Javascript!
+```
+
+- [ ] The output may change with each execution of code and cannot be determined.
+- [ ]
+
+```
+I
+love
+Javascript!
+```
+#### Q84. What will this code log to the console?
+
+```js
+const foo = [1, 2, 3];
+const [n] = foo;
+console.log(n);
+```
+
+- [x] 1
+- [ ] undefined
+- [ ] NaN
+- [ ] Nothing--this is not proper JavaScript syntax and will throw an error.

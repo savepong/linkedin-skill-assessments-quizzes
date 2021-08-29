@@ -494,7 +494,7 @@ From [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr): The HT
 - [ ] `<hgroup> <q> <wbr>`
 - [ ] `<b> <i> <u>`
 
-#### Q31. The `**\_\_**` tag is used for marking up a short code snippet, while the `**\_\_**` tag is used for marking up a longer block of code.
+#### Q31. The **\_** tag is used for marking up a short code snippet, while the **\_** tag is used for marking up a longer block of code.
 
 - [ ] `<kdb>`, `<pre>`
 - [ ] `<pre>`, `<code>`
@@ -508,7 +508,7 @@ From [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr): The HT
 - [ ] It visually labels from fields.
 - [x] It programmatically associates a text label with an interface element.
 
-#### Q33. To get a link to open in a new window or tab, use the `**\_\_**` attribute.
+#### Q33. To get a link to open in a new window or tab, use the **\_** attribute.
 
 - [x] `_blank`
 - [ ] `_self`
@@ -1254,7 +1254,7 @@ As Steve Krug once said, happy talk must die.
   </nav>
 ```
 
-#### Q79. Which choice is the best way to mark up this loyout?
+#### Q79. Which choice is the best way to mark up this layout?
 
 ![Image of footer](images/ss-8.png?raw=true)
 
@@ -1314,3 +1314,79 @@ As Steve Krug once said, happy talk must die.
 - [ ] It has child content but no closing tag.
 - [x] It has no child content and no closing tag.
 
+#### Q82. For the HTML code below, when will "Sample Text" display to the browser?
+
+```markdown
+<noscript>Sample Text</noscript>
+```
+
+- [ ] when there is no JavaScript used on this webpage
+- [x] when JavaScript is not supported by the browser or if JavaScript is disabled in the browser
+- [ ] when JavaScript is disabled in the web browser
+- [ ] when JavaScript is not supported by the web browser
+
+[Reference (MDN)](https://www.w3schools.com/tags/tag_noscript.asp)
+
+#### Q83.
+
+- [ ]
+
+```markdown
+<h4>Mailing Address</h4>
+<address>
+  6410 Via Real <br>
+  Carpinteria, CA 93013<br>
+  <a href="mailto:info@linkedin.com">info@linkedin.com</a>
+</address>
+```
+
+- [ ]
+
+```markdown
+<h4><strong>Mailing Address</h4>
+<address><em>
+  6410 Via Real <br>
+  Carpinteria, CA 93013<br>
+  <a href="mailto:info@linkedin.com">info@linkedin.com</a>
+</em></address>
+```
+
+- [ ]
+
+```markdown
+<h4>Mailing Address</h4>
+<p><em>
+  6410 Via Real <br>
+  Carpinteria, CA 93013<br>
+  <a href="mailto:info@linkedin.com">info@linkedin.com</a>
+</em></p>
+```
+
+- [ ]
+
+```markdown
+<p><strong>Mailing Address</strong></p>
+<p><em>
+  6410 Via Real <br>
+  Carpinteria, CA 93013<br>
+  <a href="mailto:info@linkedin.com">info@linkedin.com</a>
+</em></p>
+```
+
+#### Q84. How will this code render by default in most web browsers?
+
+```markdown
+<details>
+  <h4>Mixed Berry Tart.</h4>
+  <p4>Raspberries, blueberries, and strawberries on top of a creamy filling served in a crispy tart.</p4>
+</details>
+```
+
+- [ ] A
+      ![A](images/Q84-1.jpg)
+- [x] B
+      ![B](images/Q84-2.jpg)
+- [ ] C
+      ![C](images/Q84-3.jpg)
+- [ ] D
+      ![D](images/Q84-4.jpg)

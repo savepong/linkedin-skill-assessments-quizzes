@@ -471,7 +471,7 @@ Explanation: Scientific Notation is a valid JSON number. You can use `e` or `E`.
 }
 ```
 
-#### Q32. When building dynamic web applications using AJAX, developers originally used the \_\_\_\_ data format, which has since been replaced by JSON.
+#### Q32. When building dynamic web applications using AJAX, developers originally used the \_ data format, which has since been replaced by JSON.
 
 - [x] XML
 - [ ] GRAPHQL
@@ -769,3 +769,33 @@ Note: None of the above options appear to be correct. A correct answer would be 
 - [ ] ->
 - [ ] ::
 - [ ] .
+
+#### Q69. What is the purpose of JSON?
+
+- [ ] to provide a simple way to serialize and deserialize data between different sources
+- [ ] to provide a way to store data for machine learning
+- [ ] to provide an archival solution for data warehousing
+- [ ] to provide a way for JavaScript to run other languages
+
+#### Q70. Can you assume the order of keys in an object?
+
+- [ ] No, but you can sort the keys with `JSON.sort()`.
+- [ ] Yes, object keys are always ordered alphabetically.
+- [ ] Yes, but only when the object is first parsed.
+- [ ] No, you can never assume object keys will be in order.
+
+#### Q71. With what character should object keys be enclosed?
+
+- [ ] *
+- [ ] #
+- [ ] ^
+- [ ] "
+
+#### Q72. What is the maximum number of key/value pairs that JSON supports?
+
+- [ ] 10,000
+- [ ] 1000
+- [ ] There is no defined limit.There is no defined limit.
+- [ ] 1 million
+
+
